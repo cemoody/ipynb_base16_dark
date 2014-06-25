@@ -67,11 +67,10 @@ div.output_stderr pre {color: #E1614E;}
 .cm-s-ipython.CodeMirror {background: #393939; color: #F5F5F5; font-size:12px; 
                           font-smooth: never -webkit-font-smoothing:none;
                           line-height:140%}
-.cm-s-ipython div.CodeMirror-selected {background: #FFCF85 !important; color:#393939 !important}
-.cm-s-ipython div.CodeMirror-selected {color:#393939 !important}
+.cm-s-ipython div.CodeMirror-selected {background: #FFCF85; color:#393939 !important}
 .cm-s-ipython .CodeMirror-gutters {background: #353535; border-right: 0px;}
 .cm-s-ipython .CodeMirror-linenumber {color: #6B6B6B}
-.cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #F5F5F5 !important;}
+.cm-s-ipython .CodeMirror-cursor {background: #F5F5F5; color: #F5F5F5; border-left: 1px solid #F5F5F5 !important;}
 
 .cm-s-ipython span.cm-comment {color: #6D7890;}
 .cm-s-ipython span.cm-atom {color: #EBE7E3;}

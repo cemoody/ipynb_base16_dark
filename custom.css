@@ -21,7 +21,7 @@ a {color: #6d9cbe;}
 
 div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
   font-family: 'Monaco', monospace !important;
-
+  font-size:12px;
 }
 
 /* INTRO PAGE */
@@ -35,36 +35,37 @@ div#maintoolbar, div#header {display: none !important;}
 div#notebook {border-top: none;}
 
 div.input_prompt {color: #6B6B6B;}
-div.output_prompt {color: #6B6B6B;}
+div.output_prompt {color: #6B6B6B; font-size:12px}
 div.input_area {
   border-radius: 0px;
   border: 1px solid #3a4055;
 }
-div.output_area pre {font-weight: normal; color: #e6e1dc; font-size:14px}
+div.output_area pre {font-weight: normal; color: #e6e1dc; font-size:12px}
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
   border: 1px  #e6e1dc solid;
   color: #e6e1dc;
+  font-size:12pt;
 }
-div.output_html { font-family: sans-serif; }
+div.output_html { font-family: sans-serif; font-size:12px}
 table.dataframe tr {border: 1px #e6e1dc;}
 
 div.cell.selected {border-radius: 0px;}
 div.cell.edit_mode {border-radius: 0px; border: thin solid #b6b3eb;}
-div.text_cell_render, div.output_html {color: #e6e1dc; font-family:"CMU Serif"; font-size:12pt}
+div.text_cell_render, div.output_html {color: #e6e1dc; font-family:"CMU Serif"; font-size:12px}
 
-span.ansiblack {color: #272935;}
-span.ansiblue {color: #519f50;}
-span.ansigray {color: #d4cfc9;}
-span.ansigreen {color: #a5c261;}
-span.ansipurple {color: #b6b3eb;}
-span.ansired {color: #da4939;}
-span.ansiyellow {color: #ffc66d;}
+span.ansiblack {color: #151515;}
+span.ansiblue {color: #6A9FB5;}
+span.ansigray {color: #B0B0B0;}
+span.ansigreen {color: #90A959;}
+span.ansipurple {color: #AA759F;}
+span.ansired {color: #AC4142;}
+span.ansiyellow {color: #F4BF75;}
 
 div.output_stderr {background-color: #383838;}
-div.output_stderr pre {color: #E1614E;}
+div.output_stderr pre {color: #E1614E; font-size:12px}
 
-.cm-s-ipython.CodeMirror {background: #393939; color: #F5F5F5; font-size:12px; 
+.cm-s-ipython.CodeMirror {background: #393939; color: #F5F5F5; ; 
                           font-smooth: never -webkit-font-smoothing:none;
                           line-height:140%}
 .cm-s-ipython div.CodeMirror-selected {background: #FFCF85; color:#393939 !important}

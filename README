@@ -9,6 +9,10 @@ Screenshot:
 
 ![Screenshot](http://i.imgur.com/bZCMYQg.png)
 
+[MockupA]: http://monosnap.com/image/bOcxxxxLGF.png "Screenshot of Feature A mockup"
+
+![Mockup for feature A][MockupA]
+
 To use this repo:
 
     1. Create the ipython profile: `ipython profile create dark`

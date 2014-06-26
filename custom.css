@@ -45,14 +45,16 @@ div.output_area pre {font-weight: normal; color: #e6e1dc; font-size:12px}
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
   border: 1px  #e6e1dc solid;
   color: #e6e1dc;
-  font-size:12pt;
+  font-size:12px;
 }
 div.output_html { font-family: sans-serif; font-size:12px}
+div.text_cell {font-size:12px}
 table.dataframe tr {border: 1px #e6e1dc;}
 
 div.cell.selected {border-radius: 0px;}
 div.cell.edit_mode {border-radius: 0px; border: thin solid #b6b3eb;}
-div.text_cell_render, div.output_html {color: #e6e1dc; font-family:"CMU Serif"; font-size:12px}
+div.text_cell_render, div.output_html {color: #e6e1dc; font-family:"CMU Serif"; 
+                                       font-size:16px; line-height:140%}
 
 span.ansiblack {color: #151515;}
 span.ansiblue {color: #6A9FB5;}

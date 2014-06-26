@@ -4,6 +4,10 @@ Screenshot:
 
 ![Screenshot](/screenshot.png)
 
+
+[Screenshot](http://i.imgur.com/bZCMYQg.png)
+
+
 To use this repo:
 
     1. Create the ipython profile: `ipython profile create dark`

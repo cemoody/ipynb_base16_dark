@@ -1,6 +1,7 @@
 IPython Dark Theme (based on Base16 railscasts dark). Defaults to vim bindings.
 
-![Screenshot](http://imgur.com/7sDIkc7)
+[Screenshot](http://i.imgur.com/7sDIkc7.png)
+![Screenshot](http://i.imgur.com/7sDIkc7.png)
 
 To use this repo:
 

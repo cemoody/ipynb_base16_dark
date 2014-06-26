@@ -1,17 +1,6 @@
 IPython Dark Theme (based on Base16 railscasts dark). Defaults to vim bindings.
 
-Screenshot:
-
-![Screenshot](/screenshot.png)
-
-
 [Screenshot](http://i.imgur.com/bZCMYQg.png)
-
-![Screenshot](http://i.imgur.com/bZCMYQg.png)
-
-[MockupA]: http://monosnap.com/image/bOcxxxxLGF.png "Screenshot of Feature A mockup"
-
-![Mockup for feature A][MockupA]
 
 To use this repo:
 

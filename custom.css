@@ -26,11 +26,15 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 
 /* INTRO PAGE */
 .toolbar_info, .list_container {color: #f4f1ed;}
+.breadcrumb>li {text-shadow:0 1px 0 #333}
 
 /* NOTEBOOK */
 
 /* comment out this line to bring the toolbar back */
 div#maintoolbar, div#header {display: none !important;}
+
+/* lighten-up the Notebook title */
+span#save_widget {color: #6B6B6B;}
 
 div#notebook {border-top: none;}
 
@@ -53,7 +57,7 @@ table.dataframe tr {border: 1px #e6e1dc;}
 
 div.cell.selected {border-radius: 0px;}
 div.cell.edit_mode {border-radius: 0px; border: thin solid #b6b3eb;}
-div.text_cell_render, div.output_html {color: #e6e1dc; font-family:"CMU Serif"; 
+div.text_cell_render, div.output_html {color: #e6e1dc; font-family:"CMU Serif";
                                        font-size:16px; line-height:140%}
 
 span.ansiblack {color: #151515;}
@@ -67,7 +71,7 @@ span.ansiyellow {color: #F4BF75;}
 div.output_stderr {background-color: #383838;}
 div.output_stderr pre {color: #E1614E; font-size:12px}
 
-.cm-s-ipython.CodeMirror {background: #393939; color: #F5F5F5; ; 
+.cm-s-ipython.CodeMirror {background: #393939; color: #F5F5F5; ;
                           font-smooth: never -webkit-font-smoothing:none;
                           line-height:140%}
 .cm-s-ipython div.CodeMirror-selected {background: #FFCF85; color:#393939 !important}
